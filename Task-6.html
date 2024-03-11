@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset><legend><mark>School Registration Form</mark></legend>
+        <form>
+            <p><mark>Student Details: </mark></p>
+            <label for="first_name">Student_First_Name: </label>
+            <input type="text" id="first_name" name="first_name" placeholder="eg:Sachin" value="Jahnavi"/>
+            <br/><br/>
+            <label for="Second_Name">Student_Second_name: </label>
+            <input type="text" id="Second_name" name="Second_name" placeholder="eg:Tendulkar" pattern="{4}"required/>
+            <br/><br/>
+            <label for="Date_of_Birth">Student_Birth: </label>
+            <input type="date" id="Date_of_Birth" name="Date_of_Birth"/>
+            <br/><br/>
+            <label for="Age">Student_Age: </label>
+            <input type="number" id="Age" name="Age" placeholder="Enter your age" />
+            <br/><br/>
+            <label for="Email">Student_Email: </label>
+            <input type="email" id="Email" name="Email" placeholder="Enter your email" />
+            <br/><br/>
+            <label for="Gender">Gender: </label>
+            <input type="radio" id="Gender" name="Gender"/>Male
+            <input type="radio" id="Gender" name="Gender"/>Female
+            <input type="radio" id="Gender" name="Gender"/>Others
+            <br/><br/>
+            <label for="Student_photo">upload_Student_Photo: </label>
+            <input type="file" id="Student_photo"/>
+            <br/><br/><hr/>
+            <p><mark>Guardian Details:</mark></p>
+            <label for="Parent_name">Parent_name:</label>
+            <input type="text" id="Parent_name" name="Parent_name" placeholder="Parent Name"/>
+            <br/><br/>
+            <label for="Parent_Ph.no">Phone.no: </label>
+            <input type="tel" id="Parent_Ph.no" name="Parent_Ph.no" placeholder="+91" pattern="[0-9]{10}"/> 
+            <br/><br/>
+            <label for="Password">Password: </label>
+            <input type="password" id="Password" placeholder="........"/>
+            <br/><br/>
+            <input type="checkbox" id="checkbox" name="Checked"/>The Above information provided is true to best of my Knowledge.
+            <br/><br/>
+            <input type="image" src="https://t3.ftcdn.net/jpg/04/27/36/98/360_F_427369886_Vj9B7B2hK4Onl8lKfla45q86Wxz6cvLy.jpg" height="30" width="110"/>
+            <input type="submit" value="Reset"/>
+        </form>
+    </fieldset>
+    
+
+    
+
+</body>
+</html>
